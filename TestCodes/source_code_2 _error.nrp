@@ -1,0 +1,28 @@
+start
+	set numberOfTrees as integer;
+	set lifeOfPi as integer;
+	set empl34RN as character;
+
+	numberOfTrees = 1897;
+	empl34RN = "97";
+	lifeOfPi = numberOfTrees + 345;
+
+	if (numberOfTrees > lifeOfPi) then
+		set fundamental as boolean;
+	endIf;
+
+	if (numberOfTrees || lifeOfPi && empl34RN) then
+		set fundamental01 as boolean;
+	endIf;
+
+	if (numberOfTrees == lifeOfPi) then
+		set art as integer;
+		art = 23 / 34 + lifeOfPi;
+	else 
+		set travelinsteadofreadingbooks as boolean;
+		art = 34 / 6    // ';' expected
+	endIf;
+
+	while (art == 23) do art = art + 1;
+	endWhile;
+end

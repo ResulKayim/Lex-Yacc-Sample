@@ -1,0 +1,17 @@
+start
+	set digits as integer;
+	set inputi as integer;
+	set p as boolean;
+	digits = 0;
+	inputi = 14;
+	p = 1;
+	while (p) do
+		inputi = inputi / 10;
+		digits = digits + 1;
+		if (inputi = 0) then
+			p = 0;
+		else
+			p = 1;
+		endIf;
+	endWhile;
+end

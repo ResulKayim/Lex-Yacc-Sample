@@ -1,0 +1,18 @@
+start
+	set intVariable as integer;
+	set charVariable as character;
+	set booleanVariable as boolean;
+
+	intVariable = 10;
+	charVariable = "NewRegularProgramming";
+	booleanVarible = 20;
+
+	output intVariable;
+	outputc "\n";
+	
+	outputc charVariable;
+	outputc "\n";
+	
+	output booleanVariable;
+	outputc "\n";
+end

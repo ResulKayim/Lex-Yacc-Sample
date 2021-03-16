@@ -1,0 +1,11 @@
+start
+	set intVal as integer;
+	read intVal;
+	while(intVal > 0) do
+	intVal = intVal - 1;
+	
+	endWhile;
+	
+	set intVal as character;
+	readc intVal;
+end

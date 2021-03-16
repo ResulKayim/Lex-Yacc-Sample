@@ -1,0 +1,15 @@
+start
+	// Factorial Calculation program in NRP
+
+	set intVariable as integer;
+	set intVariable1 as integer;
+	set factorial as integer;
+
+	intVariable = 14;
+	intVariable1 = 0;
+
+	while (intVariable1 < intVariable) do
+		factorial = factorial * intVariable;
+		intVariable1 = intVariable + 1;
+	endWhile;
+end
